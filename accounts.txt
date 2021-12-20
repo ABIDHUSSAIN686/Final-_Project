@@ -1,0 +1,7 @@
+cnic-1234,FName-aqeel,LName-afzal,Contect-765,Address-isb,Gender-male,Registration_ID-1,Registration_Date-2021-12-19
+cnic-1,FName-abid,LName-hussain,Contect-234,Address-isb,Gender-male,Registration_ID-1,Registration_Date-2021-12-19
+cnic-2,FName-Ali,LName-Baba,Contect-12345,Address-Isb,Gender-male,Registration_ID-1,Registration_Date-2021-12-20
+cnic-123456,FName-Sahil,LName-Parkash,Contect-12345678998,Address-Isb,Gender-Male,Registration_ID-1,Registration_Date-2021-12-20
+cnic-789654123,FName-Maaz,LName-Munir,Contect-789654123,Address-Lahore,Gender-Female,Registration_ID-1,Registration_Date-2021-12-20
+cnic-785412369,FName-Hammad,LName-Khalid,Contect-785412,Address-Jhelum,Gender-Male,Registration_ID-1,Registration_Date-2021-12-20
+cnic-784512,FName-Abid,LName-Hussain,Contect-7841233554,Address-Jhelum,Gender-Male,Registration_ID-1,Registration_Date-2021-12-20
