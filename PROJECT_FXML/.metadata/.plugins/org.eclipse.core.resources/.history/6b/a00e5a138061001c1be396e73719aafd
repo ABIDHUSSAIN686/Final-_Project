@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+
+  <!DOCTYPE hibernate-configuration SYSTEM
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+<session-factory> 
+<property name="hbm2ddl.auto">update</property>
+<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+<property name="connection.url">jdbc:mysql://localhost:3306/kameti_management_system</property>
+<property name="connection.username">root</property>
+<property name="connection.password">12345</property>
+<property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+<property name="show_sql">true</property>
+
+<mapping class="BussinessLogic.Accounts" />
+<mapping class="BussinessLogic.Transections" />
+<mapping class="BussinessLogic.KametiMember" />
+<mapping class="BussinessLogic.KametiParty" />
+<mapping class="BussinessLogic.KametiOwner" />
+      
+</session-factory>
+</hibernate-configuration>

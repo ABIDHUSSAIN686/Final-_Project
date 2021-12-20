@@ -1,0 +1,32 @@
+package BussinessLogic;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class HibernateDatabase {
+	public static Session getSession()
+	{
+		Configuration con = new Configuration();
+		con.configure("hibernate.cfg.xml");
+		con.configure().addAnnotatedClass(Accounts.class);
+		SessionFactory sf= con.buildSessionFactory();
+		// System.out.println("Please Register yourself!");
+		Session session= sf.openSession();
+		Transaction trans= session.beginTransaction();
+		return session;
+	}
+
+	public Transaction getTransaction()
+	{
+		Configuration con = new Configuration();
+		con.configure("hibernate.cfg.xml");
+		con.configure().addAnnotatedClass(Accounts.class);
+		SessionFactory sf= con.buildSessionFactory();
+		// System.out.println("Please Register yourself!");
+		Session session= sf.openSession();
+		Transaction trans= session.beginTransaction();
+		return trans;
+	}
+}
