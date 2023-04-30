@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EVScontroller">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="427.0" prefWidth="519.0">
+         <children>
+            <AnchorPane layoutX="-10.0" layoutY="-7.0" prefHeight="444.0" prefWidth="536.0" style="-fx-background-color: #ba55d3;">
+               <children>
+                  <ImageView fitHeight="144.0" fitWidth="546.0" layoutX="-7.0" layoutY="-6.0">
+                     <image>
+                        <Image url="@../../wallpapers/16679.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="237.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU" textAlignment="CENTER" underline="true">
+                     <font>
+                        <Font name="System Bold Italic" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="Modify_Candidate" layoutX="168.0" layoutY="249.0" mnemonicParsing="false" onAction="#OnpressModify_Candidate" prefHeight="44.0" prefWidth="197.0" style="-fx-background-color: #e79fc4;" text="Modify Candidate">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Party_results" layoutX="168.0" layoutY="305.0" mnemonicParsing="false" onAction="#On_press_Party_results" prefHeight="44.0" prefWidth="197.0" style="-fx-background-color: #e79fc4;" text="View Party Results">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Add_Candidate" layoutX="168.0" layoutY="193.0" mnemonicParsing="false" onAction="#OnpressAdd_Candidate" prefHeight="44.0" prefWidth="197.0" style="-fx-background-color: #e79fc4;" text="Add Candidate">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Admin_exit_button" layoutX="469.0" layoutY="398.0" mnemonicParsing="false" onAction="#On_press_Admin_exit_button" prefHeight="25.0" prefWidth="46.0" style="-fx-background-color: #e79fc4;" text="EXIT">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Voter_Info" layoutX="168.0" layoutY="360.0" mnemonicParsing="false" onAction="#On_press_Voter_Info" prefHeight="44.0" prefWidth="197.0" style="-fx-background-color: #e79fc4;" text="View Voter Info">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

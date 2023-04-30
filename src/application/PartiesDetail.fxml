@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EVScontroller">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0">
+         <children>
+            <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="427.0" prefWidth="519.0">
+               <children>
+                  <AnchorPane layoutX="-20.0" layoutY="-20.0" prefHeight="450.0" prefWidth="542.0" style="-fx-background-color: #3cb371;">
+                     <children>
+                        <Button fx:id="PartiesDetailbackbutton" layoutX="479.0" layoutY="411.0" mnemonicParsing="false" onAction="#OnpressPartiesDetailbackbutton" text="BACK">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="163.0" fitWidth="542.0">
+                           <image>
+                              <Image url="@../../wallpapers/wallpaperflare.com_wallpaper%20(10).jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="111.0" fitWidth="115.0" layoutX="14.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../icons/PMLN.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="115.0" fitWidth="124.0" layoutX="154.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../icons/PPP.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="115.0" fitWidth="137.0" layoutX="292.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../icons/PTI.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="115.0" fitWidth="108.0" layoutX="425.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../icons/MQMworld_(transparented).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="121.0" fitWidth="115.0" layoutX="136.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../icons/Awami_National_Party.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="115.0" fitWidth="115.0" layoutX="308.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../icons/Grand_Democratic_Alliance_Logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="51.0" layoutY="280.0" prefHeight="28.0" prefWidth="37.0" text="PTI">
+                           <font>
+                              <Font name="System Bold Italic" size="19.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="193.0" layoutY="280.0" prefHeight="28.0" prefWidth="37.0" text="PPP">
+                           <font>
+                              <Font name="System Bold Italic" size="19.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="328.0" layoutY="280.0" prefHeight="28.0" prefWidth="37.0" text="PTI">
+                           <font>
+                              <Font name="System Bold Italic" size="19.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="455.0" layoutY="280.0" prefHeight="28.0" prefWidth="48.0" text="MQM">
+                           <font>
+                              <Font name="System Bold Italic" size="19.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="169.0" layoutY="422.0" prefHeight="25.0" prefWidth="48.0" text="ANP">
+                           <font>
+                              <Font name="System Bold Italic" size="19.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="341.0" layoutY="422.0" prefHeight="25.0" prefWidth="48.0" text="GDA">
+                           <font>
+                              <Font name="System Bold Italic" size="19.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

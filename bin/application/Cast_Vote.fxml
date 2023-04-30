@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="544.0" style="-fx-background-color: #dcdcdc;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EVScontroller">
+   <children>
+      <ImageView fitHeight="173.0" fitWidth="554.0" layoutX="-7.0" layoutY="-4.0">
+         <image>
+            <Image url="@../../wallpapers/wallpaperflare.com_wallpaper%20(2).jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="castvotebackbutton" layoutX="479.0" layoutY="411.0" mnemonicParsing="false" onAction="#Onpresscastvotebackbutton" text="BACK">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="castvotecnic" layoutX="133.0" layoutY="210.0" prefHeight="31.0" prefWidth="125.0" promptText="XXXXX-XXXXXXX-X" />
+      <Label layoutX="79.0" layoutY="213.0" text="CNIC">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="35.0" layoutX="35.0" layoutY="213.0">
+         <image>
+            <Image url="@../../icons/CNIC%20logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="341.0" layoutY="213.0" text="NAME">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="castvotename" layoutX="402.0" layoutY="207.0" prefHeight="37.0" prefWidth="125.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="186.0" layoutY="259.0" prefHeight="30.0" prefWidth="67.0" text="PARTIES">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="castvotebutton" layoutX="219.0" layoutY="380.0" mnemonicParsing="false" onAction="#Onpresscastvotebutton" prefHeight="31.0" prefWidth="104.0" text="CAST VOTE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <MenuButton fx:id="castvoteparties" layoutX="265.0" layoutY="259.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="125.0" text="Select Party">
+        <items>
+          <MenuItem fx:id="PMLN_Party" mnemonicParsing="false" onAction="#OnpressPMLN_Party" text=" PMLN" />
+          <MenuItem fx:id="MQM_Party" mnemonicParsing="false" onAction="#OnpressMQM_Party" text="MQM" />
+            <MenuItem fx:id="PTI_Party" mnemonicParsing="false" onAction="#OnpressPTI_Party" text="PTI" />
+            <MenuItem fx:id="PPP_Party" mnemonicParsing="false" onAction="#OnpressPPP_Party" text="PPP" />
+            <MenuItem fx:id="ANP_Party" mnemonicParsing="false" onAction="#OnpressANP_Party" text="ANP" />
+            <MenuItem fx:id="GDA_Party" mnemonicParsing="false" onAction="#OnpressGDA_Party" text="GDA" />
+        </items>
+         <font>
+            <Font name="Tw Cen MT Condensed" size="16.0" />
+         </font>
+      </MenuButton>
+      <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="297.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../icons/pngegg%20(1).png" />
+         </image>
+      </ImageView>
+      <Label fx:id="User_alreadyvoted" layoutX="199.0" layoutY="169.0" prefHeight="37.0" prefWidth="196.0" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
